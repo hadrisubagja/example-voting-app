@@ -6,13 +6,15 @@ pipeline {
   }
 
   stages{
-    stage("build"){steps{
-      echo 'Compiling worker app..'
-      dir('worker'){
-        sh 'mvn compile'
+    stage("build"){
+      steps{
+        echo 'Compiling worker app..'
+          dir('worker'){
+            sh 'mvn compile'
+        }
       }
     }
-  }
+
     stage("test"){
       steps{
         echo 'Running Unit Tets on worker app..'
@@ -23,16 +25,18 @@ pipeline {
   }
     stage("package"){
       steps{
-        echo 'Packaging worker app'
-        dir('worker'){
-          sh 'mvn package'
+      echo 'Packaging worker app'
+      dir('worker'){
+        sh 'mvn package -DskipTests'
       }
     }
   }
 }
-  post{
-    always{
-      echo 'Building multibranch pipeline for worker is completed..'
+
+post{
+  always{
+    archiveArtifacts artifacts: '**/target/*.jar', fingerprint: true
+    echo 'Building multibranch pipeline for worker is completed..'
     }
   }
 }
