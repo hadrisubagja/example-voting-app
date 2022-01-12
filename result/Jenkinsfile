@@ -2,7 +2,7 @@ pipeline {
   agent any
 
   tools{
-    nodejs 'nodejs 8.9.0'
+    NodeJS 'NodeJS 8.9.0'
   }
 
   stages{
@@ -17,6 +17,8 @@ pipeline {
           }
       }
     }
+  }
+
 
   stages{
     stage("test"){
@@ -24,13 +26,13 @@ pipeline {
           changeset "**/result/**"
       }
       steps{
-          echo 'npm build'
+          echo 'npm test'
           dir('result'){
             sh 'npm test'
           }
       }
     }
-
+  }
 
 
 
