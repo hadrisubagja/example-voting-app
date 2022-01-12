@@ -12,9 +12,7 @@ pipeline {
       }
       steps{
           echo 'npm build'
-          dir('result'){
             sh 'npm install'
-          }
       }
     }
   }
@@ -27,9 +25,7 @@ pipeline {
       }
       steps{
           echo 'npm test'
-          dir('result'){
             sh 'npm test'
-          }
       }
     }
   }
