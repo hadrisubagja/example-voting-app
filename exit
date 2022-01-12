@@ -1,0 +1,78 @@
+warning: LF will be replaced by CRLF in README.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in readme.md.
+The file will have its original line endings in your working directory
+[1mdiff --git a/README.md b/README.md[m
+[1mindex b8ad8a9..9be2a99 100644[m
+[1m--- a/README.md[m
+[1m+++ b/README.md[m
+[36m@@ -1,60 +1,2 @@[m
+[31m-Example Voting App[m
+[31m-=========[m
+[31m-[m
+[31m-Getting started[m
+[31m----------------[m
+[31m-[m
+[31m-Download [Docker](https://www.docker.com/products/overview). If you are on Mac or Windows, [Docker Compose](https://docs.docker.com/compose) will be automatically installed. On Linux, make sure you have the latest version of [Compose](https://docs.docker.com/compose/install/). If you're using [Docker for Windows](https://docs.docker.com/docker-for-windows/) on Windows 10 pro or later, you must also [switch to Linux containers](https://docs.docker.com/docker-for-windows/#switch-between-windows-and-linux-containers).[m
+[31m-[m
+[31m-Run in this directory:[m
+[31m-```[m
+[31m-docker-compose up[m
+[31m-```[m
+[31m-The app will be running at [http://localhost:5000](http://localhost:5000), and the results will be at [http://localhost:5001](http://localhost:5001).[m
+[31m-[m
+[31m-Alternately, if you want to run it on a [Docker Swarm](https://docs.docker.com/engine/swarm/), first make sure you have a swarm. If you don't, run:[m
+[31m-```[m
+[31m-docker swarm init[m
+[31m-```[m
+[31m-Once you have your swarm, in this directory run:[m
+[31m-```[m
+[31m-docker stack deploy --compose-file docker-stack.yml vote[m
+[31m-```[m
+[31m-[m
+[31m-Run the app in Kubernetes[m
+[31m--------------------------[m
+[31m-[m
+[31m-The folder k8s-specifications contains the yaml specifications of the Voting App's services.[m
+[31m-[m
+[31m-Run the following command to create the deployments and services objects:[m
+[31m-```[m
+[31m-$ kubectl create -f k8s-specifications/[m
+[31m-deployment "db" created[m
+[31m-service "db" created[m
+[31m-deployment "redis" created[m
+[31m-service "redis" created[m
+[31m-deployment "result" created[m
+[31m-service "result" created[m
+[31m-deployment "vote" created[m
+[31m-service "vote" created[m
+[31m-deployment "worker" created[m
+[31m-```[m
+[31m-[m
+[31m-The vote interface is then available on port 31000 on each host of the cluster, the result one is available on port 31001.[m
+[31m-[m
+[31m-Architecture[m
+[31m------[m
+[31m-[m
+[31m-![Architecture diagram](architecture.png)[m
+[31m-[m
+[31m-* A Python webapp which lets you vote between two options[m
+[31m-* A Redis queue which collects new votes[m
+[31m-* A .NET worker which consumes votes and stores them in…[m
+[31m-* A Postgres database backed by a Docker volume[m
+[31m-* A Node.js webapp which shows the results of the voting in real time[m
+[31m-[m
+[31m-[m
+[31m-Note[m
+[31m-----[m
+[31m-[m
+[31m-The voting application only accepts one vote per client. It does not register votes if a vote has already been submitted from a client.[m
+[32m+[m[32mhalo halo halo[m
+[32m+[m[32mtesting[m
+[1mdiff --git a/readme.md b/readme.md[m
+[1mindex 059790b..9be2a99 100644[m
+[1m--- a/readme.md[m
+[1m+++ b/readme.md[m
+[36m@@ -1 +1,2 @@[m
+ halo halo halo[m
+[32m+[m[32mtesting[m

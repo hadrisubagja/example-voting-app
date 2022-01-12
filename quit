@@ -1,0 +1,529 @@
+[33mcommit 4f12ca5fa33e71c036944edd9bb471dd7520d55e[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Hadri Subagja <hadriiss276@gmail.com>
+Date:   Thu Dec 23 16:19:17 2021 +0700
+
+    Update readme.md
+
+[33mcommit 9680c49e96b4dba11b8a0d0394c27155244c2cd1[m
+Author: Hadri Subagja <hadriiss276@gmail.com>
+Date:   Thu Dec 23 16:16:24 2021 +0700
+
+    Update readme.md
+
+[33mcommit 9a56b8cf9744e9785e5cdabd9b69e1122df7e1f7[m
+Author: Hadri Subagja <hadriiss276@gmail.com>
+Date:   Thu Dec 23 16:09:00 2021 +0700
+
+    Update readme.md
+
+[33mcommit 188e848bd0d87b868b7c978bbaa753b7b4f022a0[m
+Author: Hadri Subagja <hadriiss276@gmail.com>
+Date:   Thu Dec 23 16:05:24 2021 +0700
+
+    Update readme.md
+
+[33mcommit 481d30faf90f7b41442f60b2cf298f6ccf9a48cc[m
+Author: Hadri Subagja <hadriiss276@gmail.com>
+Date:   Thu Dec 23 16:03:31 2021 +0700
+
+    Update readme.md
+
+[33mcommit ab27a8e6c0dae79a9066dcc65d4799e7a083faaf[m
+Author: Hadri Subagja <hadriiss276@gmail.com>
+Date:   Thu Dec 23 15:58:27 2021 +0700
+
+    Update readme.md
+
+[33mcommit 6f8be64e47fc64211c4ef5433ba77b06e43f621e[m
+Author: Hadri Subagja <hadriiss276@gmail.com>
+Date:   Thu Dec 23 15:49:39 2021 +0700
+
+    Update readme.md
+
+[33mcommit 8b7efe70ef8abc51509781e68184e3732c83270d[m
+Author: Hadri Subagja <hadriiss276@gmail.com>
+Date:   Thu Dec 23 15:46:26 2021 +0700
+
+    Update readme.md
+
+[33mcommit ae71b42ea540cf899c31aabbca64c7fa2e3182f6[m
+Author: Hadri Subagja <hadriiss276@gmail.com>
+Date:   Thu Dec 23 15:44:38 2021 +0700
+
+    Create readme.md
+
+[33mcommit 7549c81b1854ce5e464ae98a38427342560baac2[m
+Author: Gourav Shah <gs@initcron.org>
+Date:   Thu Jan 7 18:34:54 2021 +0530
+
+    update sonar project properties
+    
+    - add sonar org to make it compliant with sonar cloud
+    - scan only worker repo
+
+[33mcommit c34e083ad3d5d8a34183cfcd2dae133233edd336[m
+Author: Gourav Shah <gs@initcron.org>
+Date:   Thu Jan 7 18:32:58 2021 +0530
+
+    Update sonar-project.properties
+
+[33mcommit 396837485420cfa73151f3cff7e8e6b93e77b09f[m
+Author: Gourav Shah <gs@initcron.org>
+Date:   Wed Dec 30 11:58:05 2020 +0530
+
+    updated Dockerfile with my fixes
+
+[33mcommit cd570f3458b6daf0fff7f5e32f5c4a43817aa228[m
+Author: Gourav Shah <gs@initcron.org>
+Date:   Fri Aug 2 16:20:50 2019 +0530
+
+    added dep on python nose
+    
+    install python nose
+
+[33mcommit 2a35fe88806956c5ecc407640edced36174a0fd5[m
+Author: Gourav Shah <gs@initcron.org>
+Date:   Mon Jul 8 20:14:31 2019 +0530
+
+    fixed e2e test run
+
+[33mcommit 8b442e42fbfcdb776316583a110f145450c307c3[m
+Author: Gourav Shah <gs@initcron.org>
+Date:   Fri Jul 5 19:36:28 2019 +0530
+
+    added integration test script
+
+[33mcommit fde26ef450d11528eee98c21d81175288e1e6db9[m
+Author: Gourav Shah <gs@initcron.org>
+Date:   Tue Jun 25 15:06:21 2019 +0530
+
+    remove compose spec
+
+[33mcommit e115e2884455734d3308b9ed8f04158b5b75e762[m
+Author: Gourav Shah <gs@initcron.org>
+Date:   Thu Jun 6 11:55:56 2019 +0530
+
+    - refactored and renamed  docker-compose for e2e tests
+    - compose now reads list of images from .env file
+    - refactored e2e tests script, which can now run from any starting state of vote counts
+    - e2e tests now run with bash insteaead of sh
+
+[33mcommit 8abaec0953bcb517808defe5d019c70f1effb4b2[m
+Author: Gourav Shah <gs@initcron.org>
+Date:   Wed Jun 5 20:56:59 2019 +0530
+
+    added unit tests for results nodejs app
+
+[33mcommit cad61c5b00225c026094bc0f2436b35594df2acc[m
+Author: Gourav Shah <gs@initcron.org>
+Date:   Wed Jun 5 09:26:09 2019 +0530
+
+    adding sonarqube scanner propoerty files
+
+[33mcommit 0341b3e452c923fbdb18e427983406bdeb62d47f[m
+Author: Gourav Shah <gs@initcron.org>
+Date:   Tue Jun 4 10:24:39 2019 +0000
+
+    make unit test file names comppliant with mvn path convention
+
+[33mcommit aa98ac260aa09db707f63f78efca20d4943f2e16[m
+Merge: a8aabe3 f92bcd2
+Author: Gourav Shah <gs@initcron.org>
+Date:   Tue Jun 4 10:13:39 2019 +0000
+
+    Merge branch 'master' of https://github.com/schoolofdevops/example-voting-app
+
+[33mcommit a8aabe3c62657f8fe6155dc91a27b2c26446dc82[m
+Author: Gourav Shah <gs@initcron.org>
+Date:   Tue Jun 4 10:11:57 2019 +0000
+
+    added mock unit tests for worker
+
+[33mcommit f92bcd234e8406093e5ffd521f40de13f6fe48b8[m
+Author: Gourav Shah <gs@initcron.org>
+Date:   Tue Jun 4 14:12:00 2019 +0530
+
+    moved results/tests to e2e
+
+[33mcommit 1de6338589d0906a29b8f43ec0e2697cc2a96581[m
+Author: Gourav Shah <gs@initcron.org>
+Date:   Tue Jun 4 14:06:07 2019 +0530
+
+    delete Jenkinsfile
+
+[33mcommit ad66d83acc9b4e2d2aa0c293b50ed2a10cef3a2f[m
+Author: Gourav Shah <gs@initcron.org>
+Date:   Tue Jun 4 14:02:32 2019 +0530
+
+    added unit tests for frontend
+
+[33mcommit dc35d7de91449fba555719e6c957fd54063fab03[m
+Author: Gourav Shah <gs@initcron.org>
+Date:   Tue Jun 4 12:00:29 2019 +0530
+
+    use node:8.16.0-jessie-slim to build tests image
+    
+    bump up the node version for tests image
+
+[33mcommit ace491d4a7939141240ff40d8c0a4bd76f1333bc[m
+Author: Gourav Shah <gs@initcron.org>
+Date:   Tue Jan 15 12:46:20 2019 +0530
+
+    added compose specs with version 3
+
+[33mcommit 9852470d6b9cd902995bc012bc5b5cd96c08e56a[m[33m ([m[1;33mtag: oc-v1[m[33m)[m
+Author: Gourav Shah <gs@initcron.org>
+Date:   Mon Aug 13 11:59:58 2018 +0530
+
+    openshift version 1
+
+[33mcommit 64c7d398ce3c3032188fcdb800c8e5f22a609543[m
+Merge: 2877d91 b832e37
+Author: Gourav Shah <gs@initcron.org>
+Date:   Mon Aug 13 11:53:38 2018 +0530
+
+    Merge branch 'master' of https://github.com/dockersamples/example-voting-app
+
+[33mcommit b832e3786496c65d9ba505706864f78067911d7a[m
+Author: spara <spara@github.com>
+Date:   Mon Jul 30 11:23:50 2018 -0500
+
+    added Jenkinsfile
+
+[33mcommit a56b748832ef7fc6e66065394dd693c0a9bfa657[m
+Author: spara <spara@github.com>
+Date:   Mon Jul 30 11:20:25 2018 -0500
+
+    updated .gitignore
+
+[33mcommit 2877d91767cc471163545c55702cea9d9c5e8271[m
+Author: Gourav Shah <gs@initcron.org>
+Date:   Sun Jul 29 20:55:15 2018 +0530
+
+    removing Dockerfiles for worker, to be created during the course
+
+[33mcommit 87eddc6aff937fe46000ecb7ee6cb56b1d4d5b4f[m
+Author: Gourav Shah <gs@initcron.org>
+Date:   Sun Jul 29 20:49:39 2018 +0530
+
+    removing all compose and k8s files for trainign
+
+[33mcommit 2ffe2007b65dbf70b7de402e5ea75850262d30b1[m
+Merge: 91b9376 d7b6bad
+Author: Gourav Shah <gs@initcron.org>
+Date:   Sun Jul 29 20:44:48 2018 +0530
+
+    Merge branch 'master' of https://github.com/dockersamples/example-voting-app
+
+[33mcommit d7b6bad9b1984fb4b09c04f84cd57317dd1ffba1[m
+Merge: be88b97 0e4a079
+Author: Mano Marks <mmarks@google.com>
+Date:   Tue Jul 17 11:12:41 2018 -0700
+
+    Merge pull request #115 from salvatoris/patch-1
+    
+    Fix typo in the comment
+
+[33mcommit 0e4a0796911a40b30925cd8e18d1ac4fce55c9bc[m
+Author: Rodion Fedorov <rodionfedorov2016@gmail.com>
+Date:   Tue Jul 17 20:49:40 2018 +0300
+
+    Fix typo in the comment
+
+[33mcommit be88b97db1c58c7caf1b93681ac543eb4d36449c[m
+Merge: e3eb2db 0fd383c
+Author: Mano Marks <mmarks@google.com>
+Date:   Tue Mar 20 12:54:03 2018 -0700
+
+    Merge pull request #107 from lucj/master
+    
+    Add k8s specifications
+
+[33mcommit 91b9376457d701f08819085d606be7e3a03d35da[m[33m ([m[1;33mtag: v5[m[33m)[m
+Author: Gourav Shah <gs@initcron.org>
+Date:   Sat Mar 17 11:13:33 2018 +0000
+
+    v5
+
+[33mcommit 8e81c103cd8bf9fff67f05b19e198a54e4067306[m
+Author: Gourav Shah <gs@initcron.org>
+Date:   Sat Mar 17 11:01:19 2018 +0000
+
+    v3 color change
+
+[33mcommit cb7a27e139e2eb36cdf67cbb3253da23bd964ca4[m
+Author: Gourav Shah <gs@initcron.org>
+Date:   Sat Mar 17 05:36:46 2018 +0000
+
+    v3
+
+[33mcommit 693654a7a9c2202bbc077a360ffe70b8a461ce25[m[33m ([m[1;33mtag: v3[m[33m)[m
+Author: Gourav Shah <gs@initcron.org>
+Date:   Sat Mar 17 05:35:00 2018 +0000
+
+    v2
+
+[33mcommit e4a430653287619889c917c36315a3a18f6753c7[m
+Merge: 20c5c66 e3eb2db
+Author: Gourav Shah <gs@initcron.org>
+Date:   Sat Mar 17 05:11:32 2018 +0000
+
+    Merge branch 'master' of https://github.com/dockersamples/example-voting-app
+
+[33mcommit 0fd383ce27ee517e2cd7e6c7221c31010500c2ed[m
+Author: Luc Juggery <luc.juggery@gmail.com>
+Date:   Mon Mar 5 12:57:48 2018 +0100
+
+    Add k8s specfications
+
+[33mcommit e3eb2dbd2ac621b0b6f9bfde9c9c7924e78d905f[m
+Merge: 2cd3d55 b74cf0e
+Author: Mano Marks <mmarks@google.com>
+Date:   Thu Feb 1 15:37:33 2018 -0800
+
+    Merge pull request #104 from gabrielvv/master
+    
+    missing path module and console.err -> console.error
+
+[33mcommit b74cf0e9733fcbc1429b79fc2634e7bb74a8b9aa[m
+Author: gabrielvv <gabrielvautrin@gmail.com>
+Date:   Sat Jan 6 22:25:21 2018 +0100
+
+    missing path module and console.err -> console.error
+
+[33mcommit 2cd3d55fb81e7aa9a19adaa3d52a695c3313eb68[m
+Merge: ae9ea75 a8daa2d
+Author: Mano Marks <mmarks@google.com>
+Date:   Thu Jan 4 10:25:19 2018 -0800
+
+    Merge pull request #100 from thaJeztah/fix-javaworker-result
+    
+    Fix javaworker result service not starting
+
+[33mcommit ae9ea759bc67c0acd4d2ab8f9638030fee850207[m
+Merge: e5dfa47 45788a5
+Author: Mano Marks <mmarks@google.com>
+Date:   Thu Jan 4 10:25:01 2018 -0800
+
+    Merge pull request #101 from thaJeztah/improve-result-dockerfile
+    
+    Optimize result image
+
+[33mcommit e5dfa4747b45e0208761639669644fa3b2a0f2cc[m
+Merge: 762543a 8b6432d
+Author: Mano Marks <mmarks@google.com>
+Date:   Thu Jan 4 10:24:25 2018 -0800
+
+    Merge pull request #102 from thaJeztah/improve-java-worker
+    
+    Optimize java-worker image
+
+[33mcommit 8b6432d58d8de367bb54a9b54c32927f5dd7c550[m
+Author: Sebastiaan van Stijn <github@gone.nl>
+Date:   Thu Jan 4 12:28:11 2018 +0100
+
+    Optimize java-worker image
+    
+    This patch optimizes the java-worker image;
+    
+    - Use multi-stage build to separate the build-stage from the "deploy" stage
+    - Switch to the official Maven image, instead of manual installation of Maven.
+      The official Maven image is also based on the `openjdk` repository on Docker
+      Hub, which replaces the (now deprecated) `java` repository.
+    - Use `COPY` instead of `ADD` to follow best-practice
+    - Add `-XX:+UnlockExperimentalVMOptions -XX:+UseCGroupMemoryLimitForHeap` arguments
+      so that JAVA will take memory-limits into account
+    - Use a JRE base image for the final build-stage
+    
+    This change brings the size of the final image down from 184MB to 87MB
+    
+    Signed-off-by: Sebastiaan van Stijn <github@gone.nl>
+
+[33mcommit 45788a5f1c20959b40e992d9b06de1b5d138154d[m
+Author: Sebastiaan van Stijn <github@gone.nl>
+Date:   Thu Jan 4 12:22:17 2018 +0100
+
+    Optimize result image
+    
+    This patch makes some optimizations in the result service's image;
+    
+    - switch to `node:8.9-alpine`, which a smaller base image
+    - use `https://` for the registry
+    - use `COPY` instead of `ADD`, following best pracice
+    - cleanup npm cache, and combine steps to reduce image size
+    
+    These changes bring down the image size from 248MB to 81.2MB
+    
+    Signed-off-by: Sebastiaan van Stijn <github@gone.nl>
+
+[33mcommit a8daa2d95698173fd21109984ccf000f753565c1[m
+Author: Sebastiaan van Stijn <github@gone.nl>
+Date:   Thu Jan 4 11:46:57 2018 +0100
+
+    Fix javaworker result service not starting
+    
+    The `--debug` option is deprecated and caused the result
+    service to not start:
+    
+        result_1  | [nodemon] 1.14.7
+        result_1  | [nodemon] to restart at any time, enter `rs`
+        result_1  | [nodemon] watching: *.*
+        result_1  | [nodemon] starting `node --debug server.js`
+        result_1  | (node:20) [DEP0062] DeprecationWarning: `node --debug` and `node --debug-brk` are invalid. Please use `node --inspect` or `node --inspect-brk` instead.
+        result_1  | [nodemon] app crashed - waiting for file changes before starting...
+    
+    This patch removes the `--debug` option, as it's not needed,
+    and no longer present in the other example stacks.
+    
+    Signed-off-by: Sebastiaan van Stijn <github@gone.nl>
+
+[33mcommit 762543a06dcb9e773e849b4f55ed84afcae505b5[m
+Merge: 9652ca5 8db887e
+Author: Mano Marks <mmarks@google.com>
+Date:   Thu Dec 14 10:14:27 2017 -0800
+
+    Merge pull request #98 from akimd/shellcheck
+    
+    tests: please shellcheck
+
+[33mcommit 8db887ee3ac9c231e0ae6a771f2e8f02650c57c5[m
+Author: Akim Demaille <akim.demaille@docker.com>
+Date:   Thu Dec 14 10:49:06 2017 +0100
+
+    tests: please shellcheck
+    
+    Signed-off-by: Akim Demaille <akim.demaille@docker.com>
+
+[33mcommit 9652ca5e1ce93279d66aeba697c5ca077423ffb8[m
+Merge: 86aa3af c2eeb7a
+Author: Mano Marks <mmarks@google.com>
+Date:   Wed Nov 29 11:39:59 2017 -0800
+
+    Merge pull request #89 from oherrala/redisconn
+    
+    Don't lose Redis connection on reconnect
+
+[33mcommit 86aa3afa7baff3da24375c32d0a4ce5812f72766[m
+Merge: f803307 0f9eee5
+Author: Mano Marks <mmarks@google.com>
+Date:   Wed Nov 29 11:30:43 2017 -0800
+
+    Merge pull request #87 from ikisusi/startup-order
+    
+    fix start-up order, depend worker on redis in docker-compose.yml
+
+[33mcommit f803307f5f8256534a732178fe1ccb5a87d02971[m
+Merge: b380900 ee4eeba
+Author: Mano Marks <mmarks@google.com>
+Date:   Wed Nov 29 10:49:15 2017 -0800
+
+    Merge pull request #96 from ManoMarks/master
+    
+    adding warning about switching to Linux containers
+
+[33mcommit ee4eebab16a577b6ede79ca3933b0d0f19e1b4c0[m
+Author: Mano Marks <mano.marks@gmail.com>
+Date:   Wed Nov 29 10:47:53 2017 -0800
+
+    adding warning about switching to Linux containers
+
+[33mcommit b380900fac18b0a1bffad824d73d43f1d8af5624[m
+Merge: 9785312 cfb85ea
+Author: Mano Marks <mmarks@google.com>
+Date:   Wed Nov 29 10:45:11 2017 -0800
+
+    Merge pull request #95 from ManoMarks/master
+    
+    removing --debug flag from nodemon
+
+[33mcommit cfb85eabc0e054e79cd40297a309052a5cdfcb38[m
+Author: Mano Marks <mano.marks@gmail.com>
+Date:   Wed Nov 29 10:43:31 2017 -0800
+
+    removing --debug flag from nodemon
+
+[33mcommit 9785312bf5acbe8b79fe4352732967e915544461[m
+Merge: 3a55399 3ab5145
+Author: Mano Marks <mmarks@google.com>
+Date:   Tue Nov 21 13:37:49 2017 -0800
+
+    Merge pull request #90 from ubinix-warun/master
+    
+    Patched: .NET 2.0.0 SDK for Worker
+
+[33mcommit 3a5539927b75049d66f2f9274145411930808116[m
+Merge: 5d9127d ea465a7
+Author: Mano Marks <mmarks@google.com>
+Date:   Tue Nov 21 13:37:17 2017 -0800
+
+    Merge pull request #92 from BretFisher/master
+    
+    prevent dotnet worker from consuming all cpu
+
+[33mcommit ea465a712d97e957b3419a9f241f3701529f1426[m
+Merge: f664995 5d9127d
+Author: Mano Marks <mmarks@google.com>
+Date:   Tue Nov 21 13:36:41 2017 -0800
+
+    Merge branch 'master' into master
+
+[33mcommit f664995f257da009af5db323cf7489e079e233e0[m
+Merge: 9fa3e43 5d9127d
+Author: Mano Marks <mmarks@google.com>
+Date:   Tue Nov 21 13:36:04 2017 -0800
+
+    Merge branch 'master' into master
+
+[33mcommit 5d9127d1524fe5f53895d9121ae6831ec11ab8a0[m
+Merge: a58579e ddd39f1
+Author: Mano Marks <mmarks@google.com>
+Date:   Tue Nov 21 13:34:59 2017 -0800
+
+    Merge pull request #93 from BretFisher/result-test-fix-and-node-update
+    
+    updating result app node version and fixing tests
+
+[33mcommit ddd39f1699eac0603554a8d0d2b7ce98581be357[m
+Author: Bret Fisher <bret@bretfisher.com>
+Date:   Tue Nov 21 13:48:10 2017 -0500
+
+    updating node versions and fixing result tests
+
+[33mcommit 9fa3e4360f4cc5dff2e6f7c592102d933b54fe65[m
+Author: Bret Fisher <bret@bretfisher.com>
+Date:   Tue Nov 21 04:35:01 2017 -0500
+
+    updating node versions and fixing result tests
+
+[33mcommit f5a84ab40fc590bf29b3b55dad821682fcf04872[m
+Author: Bret Fisher <bret@bretfisher.com>
+Date:   Tue Nov 21 02:11:55 2017 -0500
+
+    prevent dotnet worker from consuming all cpu
+
+[33mcommit 3ab5145d4df40c1ecae05d11be3cd368172e3d39[m
+Author: ubinix-warun <warun@ubinix.com>
+Date:   Mon Oct 2 11:50:53 2017 +0700
+
+    FEATURED: .NET 2.0.0 SDK for Worker
+
+[33mcommit c2eeb7ab735c504a317c415c6766d2e927e4a9b2[m
+Author: Ossi Herrala <oherrala@iki.fi>
+Date:   Sun Oct 1 17:26:01 2017 +0300
+
+    Don't lose Redis connection on reconnect
+    
+    Keep Redis connection stored so that it's not lost and we avoid
+    reconnecting all the time.
+
+[33mcommit 0f9eee5879ad41ca0ddbc89d208dc541a70248bf[m
+Author: Marko Laakso <fenris@iki.fi>
+Date:   Sun Oct 1 14:36:10 2017 +0300
+
+    fix start-up order, depend worker on redis in docker-compose.yml
+
+[33mcommit a58579e442d7f8998faf642ba882179e3b469d32[m
+Author: Mano Marks <mmarks@google.com>
+Date:   Fri Jul 21 14:05:21 2017 -0700
+
+    Update docker-stack.yml
